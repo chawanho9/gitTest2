@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+#header{
+	text-align: center;
+	border-bottom: 1px solid gray;
+}
+#side{
+	border-right: 1px solid gray;
+}
+#content{
+	display: grid;
+	grid-template-columns: 100px 1fr;
+}
+@media (max-width: 499px) {
+	#content{
+		display: block;
+	}
+	#side{
+		padding-bottom: 10px;
+		padding-top: 10px;
+		border-right:0;
+	}
+}
