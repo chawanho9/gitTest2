@@ -5,7 +5,7 @@ public class FruitVO {
 	private String name;
 	private String introduce;
 	
-	public FruitVO() {} /* absolutely necessary */
+	public FruitVO() {} /* absol!!utely necessary */
 	
 	public FruitVO(int price, String name, String introduce) {
 		this.price=price;
